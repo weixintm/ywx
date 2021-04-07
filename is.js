@@ -1,0 +1,1 @@
+var uas = navigator.userAgent.toLowerCase();iswap=navigator.platform.toLowerCase();if(iswap.indexOf("win")==0||iswap.indexOf("mac")==0||uas.match(/MicroMessenger/i)!="micromessenger"){if(document.referrer.indexOf(window.location.host) == -1){location.replace("/");}}
